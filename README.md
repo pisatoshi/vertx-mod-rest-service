@@ -9,7 +9,7 @@ Including vertx-mod-jersey and vertx-mod-hk2.
 h4. build and running
 ```bash
 ./gradlew clean build
-./gradlew runmod -Dvertx.langs.java=com.englishtown~vertx-mod-hk2~1.7.0:com.englishtown.vertx.hk2.HK2VerticleFactory
+./gradlew runmod
 ```
 
 Limitation:
