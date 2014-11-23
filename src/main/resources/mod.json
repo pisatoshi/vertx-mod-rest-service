@@ -1,12 +1,11 @@
 {
-  "includes": "com.englishtown~vertx-mod-hk2~1.5.0-final",
-  "includes": "com.englishtown~vertx-mod-jersey~2.4.0-final",
+    "main": "com.englishtown.vertx.jersey.JerseyModule",
+    "includes": "com.englishtown~vertx-mod-jersey~3.0.0",
+    "includes": "com.englishtown~vertx-mod-hk2~1.7.0",
 
-  "main": "com.englishtown.vertx.jersey.JerseyModule",
+    "description":"Put description of your module here",
+    "licenses": ["The Apache Software License Version 2.0"],
+    "author": "developer",
 
-  "description":"Put description of your module here",
-  "licenses": ["The Apache Software License Version 2.0"],
-  "author": "pisatoshi",
-
-  "auto-redeploy": true
+    "auto-redeploy": true
 }

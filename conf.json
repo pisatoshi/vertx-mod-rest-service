@@ -1,6 +1,7 @@
 {
     "host": "localhost",
-    "port": 8080,
+    "port": 28080,
     "base_path": "/rest",
-    "resources": ["com.mycompany.myproject"]
+    "resources": ["com.mycompany.myproject"],
+    "binders": ["com.englishtown.vertx.hk2.BootstrapBinder"]
 }
